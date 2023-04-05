@@ -4,3 +4,4 @@
 Package install: https://asciinema.org/a/Td2NHxMYvcI8ZV3F9TQGXp2hQ  
 Game launch: https://asciinema.org/a/91AOVjWkxd3TdCdojQEy5qbVt  
 Calc game launch: https://asciinema.org/a/gemDQYqfVsJb3fm8AXhUXRSpl  
+GCD game launch: https://asciinema.org/a/xUluz7clArYz11nLO65ObNYL1  
