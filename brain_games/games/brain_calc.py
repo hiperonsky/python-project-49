@@ -6,9 +6,7 @@ from brain_games.cli import welcome_user, name
 def main():
     welcome_user()
     print('What is the result of the expression?')
-    general_counter = 0
-
-    while general_counter < 3:
+    for i in range(0, 3):
         first_number = random.randint(0, 100)
         second_number = random.randint(0, 100)
         oper_number = random.randint(1, 3)
@@ -30,9 +28,8 @@ Correct answer was '{str(true_answer)}'.")
             break
         else:
             print('Correct!')
-            general_counter += 1
-            if general_counter == 3:
-                print('Congratulations, ' + name + '!')
+        if i == 2:
+            print('Congratulations, ' + name + '!')
 
 
 if __name__ == '__main__':
