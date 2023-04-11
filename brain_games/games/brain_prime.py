@@ -1,6 +1,6 @@
 import random
 import prompt
-from brain_games.cli import welcome_user, name
+from brain_games.cli import welcome_user, check, name
 
 
 def prime_number(number):
@@ -10,16 +10,6 @@ def prime_number(number):
         if number % i == 0:
             return 'no'
     return 'yes'
-
-
-def check(user_answer, true_answer):
-    if str(user_answer) != str(true_answer):
-        print(f"'{user_answer}' is wrong answer ;(. \
-Correct answer was '{str(true_answer)}'.")
-        print(f"Let's try again, {name}!")
-        return False
-    else:
-        print('Correct!')
 
 
 def main():
