@@ -4,13 +4,12 @@ from brain_games.cli import welcome_user, name
 
 
 def prime_number(number):
-    if number == 1:
-        return 'yes'
-    else:
-        for i in range(2, number):
-            if (number % i) == 0:
-                return 'no'
-                break
+    if number <= 1:
+        return 'no'
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return 'no'
+    return 'yes'
 
 
 def main():
