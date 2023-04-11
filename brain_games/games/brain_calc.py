@@ -3,6 +3,16 @@ import prompt
 from brain_games.cli import welcome_user, name
 
 
+def check(user_answer, true_answer):
+    if str(user_answer) != str(true_answer):
+        print(f"'{user_answer}' is wrong answer ;(. \
+Correct answer was '{str(true_answer)}'.")
+        print(f"Let's try again, {name}!")
+        return False
+    else:
+        print('Correct!')
+
+
 def main():
     welcome_user()
     print('What is the result of the expression?')
@@ -21,13 +31,8 @@ def main():
             exp_char = '*'
         print(f"Question: {str(first_number)} {exp_char} {str(second_number)}")
         user_answer = prompt.string('Your answer: ')
-        if str(user_answer) != str(true_answer):
-            print(f"'{user_answer}' is wrong answer ;(. \
-Correct answer was '{str(true_answer)}'.")
-            print("Let's try again, " + name + "!")
+        if check(user_answer, true_answer) is False:
             break
-        else:
-            print('Correct!')
         if i == 2:
             print('Congratulations, ' + name + '!')
 

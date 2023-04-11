@@ -5,6 +5,16 @@ import prompt
 from brain_games.cli import welcome_user, name
 
 
+def check(user_answer, true_answer):
+    if str(user_answer) != str(true_answer):
+        print(f"'{user_answer}' is wrong answer ;(. \
+Correct answer was '{str(true_answer)}'.")
+        print(f"Let's try again, {name}!")
+        return False
+    else:
+        print('Correct!')
+
+
 def main():
     welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -16,13 +26,8 @@ def main():
             true_answer = 'no'
         print('Question: ' + str(first_number))
         user_answer = prompt.string('Your answer: ')
-        if str(user_answer) != (true_answer):
-            print(f"'{user_answer}' is wrong answer ;(. \
-Correct answer was '{str(true_answer)}'.")
-            print("Let's try again, " + name + "!")
+        if check(user_answer, true_answer) is False:
             break
-        else:
-            print('Correct!')
         if i == 2:
             print('Congratulations, ' + name + '!')
 
