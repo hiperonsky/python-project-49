@@ -2,7 +2,6 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "A pack of mathematical games"
-classifiers = "Games"
 repository = "https://github.com/hiperonsky/python-project-49"
 authors = ["Vladimir Galanin <hiperonsky@gmail.com>"]
 readme = "README.md"
