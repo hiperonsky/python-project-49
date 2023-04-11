@@ -12,6 +12,16 @@ def prime_number(number):
     return 'yes'
 
 
+def check(user_answer, true_answer):
+    if str(user_answer) != str(true_answer):
+        print(f"'{user_answer}' is wrong answer ;(. \
+Correct answer was '{str(true_answer)}'.")
+        print(f"Let's try again, {name} !")
+        return False
+    else:
+        print('Correct!')
+
+
 def main():
     welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
@@ -20,13 +30,9 @@ def main():
         true_answer = prime_number(number)
         print('Question: ' + str(number))
         user_answer = prompt.string('Your answer: ')
-        if str(user_answer) != str(true_answer):
-            print(f"'{user_answer}' is wrong answer ;(. \
-Correct answer was '{str(true_answer)}'.")
-            print("Let's try again, " + name + "!")
+        if check(user_answer, true_answer) is False:
             break
-        else:
-            print('Correct!')
+
         if i == 2:
             print('Congratulations, ' + name + '!')
 
