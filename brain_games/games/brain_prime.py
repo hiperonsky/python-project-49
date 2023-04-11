@@ -15,8 +15,9 @@ def prime_number(number):
 def main():
     welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    general_counter = 0
-    while general_counter < 3:
+    #general_counter = 0
+    #while general_counter < 3:
+    for i in range(0, 3):
         number = random.randint(1, 100)
         true_answer = prime_number(number)
         print('Question: ' + str(number))
@@ -28,8 +29,8 @@ Correct answer was '{str(true_answer)}'.")
             break
         else:
             print('Correct!')
-        general_counter += 1
-        if general_counter == 3:
+        #general_counter += 1
+        if i == 2:
             print('Congratulations, ' + name + '!')
 
 
