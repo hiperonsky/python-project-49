@@ -4,9 +4,6 @@ from brain_games.cli import welcome_user, name
 
 
 def main():
-    # print('Welcome to the Brain Games!')
-    # name = prompt.string('May I have your name? ')
-    # print('Hello, ' + name + '!')
     welcome_user()
     print('What is the result of the expression?')
     general_counter = 0
@@ -24,7 +21,6 @@ def main():
         else:
             first_exp_true_answer = first_exp_first_number * first_exp_second_number
             first_exp_char = '*'
-    
         print('Question: ' + str(first_exp_first_number) + ' ' + first_exp_char + ' ' + str(first_exp_second_number))
         first_answer = prompt.string('Your answer: ')
         if str(first_answer) != str(first_exp_true_answer):
@@ -36,6 +32,7 @@ def main():
             general_counter += 1
             if general_counter == 3:
                 print('Congratulations, ' + name + '!')
+
 
 if __name__ == '__main__':
     main()

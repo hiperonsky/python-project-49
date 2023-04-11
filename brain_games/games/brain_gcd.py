@@ -5,9 +5,6 @@ from brain_games.cli import welcome_user, name
 
 
 def main():
-    # print('Welcome to the Brain Games!')
-    # name = prompt.string('May I have your name? ')
-    # print('Hello, ' + name + '!')
     welcome_user()
     print('Find the greatest common divisor of given numbers.')
     general_counter = 0
@@ -16,7 +13,6 @@ def main():
         first_q_first_number = random.randint(0, 100)
         first_q_second_number = random.randint(0, 100)
         first_q_gcd_number = gcd(first_q_first_number, first_q_second_number)
-    
         print('Question: ' + str(first_q_first_number) + ' ' + str(first_q_second_number))
         first_answer = prompt.string('Your answer: ')
         if str(first_answer) != str(first_q_gcd_number):
@@ -28,6 +24,7 @@ def main():
         general_counter += 1
         if general_counter == 3:
             print('Congratulations, ' + name + '!')
+
 
 if __name__ == '__main__':
     main()
