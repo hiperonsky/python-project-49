@@ -12,7 +12,7 @@ def main():
 
     while general_counter < 3:
         first_prog_first_number = random.randint(0, 100)
-        first_prog_second_number = random.randint(0, 100)
+        first_prog_second_number = random.randint(0, 12)
         first_counter = 0
         first_list = []
         while first_counter < 10:
