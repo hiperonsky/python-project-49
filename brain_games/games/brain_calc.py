@@ -9,22 +9,22 @@ def main():
     general_counter = 0
 
     while general_counter < 3:
-        first_exp_first_number = random.randint(0, 100)
-        first_exp_second_number = random.randint(0, 100)
-        first_exp_oper_number = random.randint(1, 3)
-        if first_exp_oper_number == 1:
-            first_exp_true_answer = first_exp_first_number + first_exp_second_number
-            first_exp_char = '+'
-        elif first_exp_oper_number == 2:
-            first_exp_true_answer = first_exp_first_number - first_exp_second_number
-            first_exp_char = '-'
+        first_number = random.randint(0, 100)
+        second_number = random.randint(0, 100)
+        oper_number = random.randint(1, 3)
+        if oper_number == 1:
+            true_answer = first_number + second_number
+            exp_char = '+'
+        elif oper_number == 2:
+            true_answer = first_number - second_number
+            exp_char = '-'
         else:
-            first_exp_true_answer = first_exp_first_number * first_exp_second_number
-            first_exp_char = '*'
-        print('Question: ' + str(first_exp_first_number) + ' ' + first_exp_char + ' ' + str(first_exp_second_number))
-        first_answer = prompt.string('Your answer: ')
-        if str(first_answer) != str(first_exp_true_answer):
-            print("'" + first_answer + "'" + ' is wrong answer ;(. Correct answer was ' + "'" + str(first_exp_true_answer) + "'.")
+            true_answer = first_number * second_number
+            exp_char = '*'
+        print('Question: ' + str(first_number) + ' ' + exp_char + ' ' + str(second_number))
+        user_answer = prompt.string('Your answer: ')
+        if str(user_answer) != str(true_answer):
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{str(true_answer)}'.")
             print("Let's try again, " + name + "!")
             break
         else:

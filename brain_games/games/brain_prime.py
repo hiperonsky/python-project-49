@@ -6,9 +6,7 @@ from brain_games.cli import welcome_user, name
 def main():
     welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
     general_counter = 0
-
     while general_counter < 3:
         number = random.randint(1, 100)
         true_answer = 'yes'
@@ -22,7 +20,7 @@ def main():
         print('Question: ' + str(number))
         user_answer = prompt.string('Your answer: ')
         if str(user_answer) != str(true_answer):
-            print("'" + user_answer + "'" + ' is wrong answer ;(. Correct answer was ' + "'" + str(true_answer) + "'.")
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{str(true_answer)}'.")
             print("Let's try again, " + name + "!")
             break
         else:
