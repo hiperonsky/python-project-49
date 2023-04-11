@@ -8,10 +8,15 @@ To run GCD game, run 'brain-gcd'
 To run progression game, run 'brain-progression'  
 To run prime game, run 'brain-prime'  
   
-Package install: https://asciinema.org/a/xAwVGbXmGWPqfgST8qkmnMcU4  
-Even game launch: https://asciinema.org/a/BHuGp87FwzVEB6X7ez067znsT  
-Calc game launch: https://asciinema.org/a/gemDQYqfVsJb3fm8AXhUXRSpl  
+Package install:  
+[![asciicast](https://asciinema.org/a/xAwVGbXmGWPqfgST8qkmnMcU4.svg)](https://asciinema.org/a/xAwVGbXmGWPqfgST8qkmnMcU4)  
+Even game launch:  
+[![asciicast](https://asciinema.org/a/BHuGp87FwzVEB6X7ez067znsT.svg)](https://asciinema.org/a/BHuGp87FwzVEB6X7ez067znsT)  
+Calc game launch:  
 [![asciicast](https://asciinema.org/a/gemDQYqfVsJb3fm8AXhUXRSpl.svg)](https://asciinema.org/a/gemDQYqfVsJb3fm8AXhUXRSpl)  
-GCD game launch: https://asciinema.org/a/xUluz7clArYz11nLO65ObNYL1  
-Progression game launch: https://asciinema.org/a/0ijSWgRLCP5feod2uDXf2TZsu  
-Prime game launch: https://asciinema.org/a/WkPQMkQMjPy0Nfo1rkAz8hdBS  
+GCD game launch:  
+[![asciicast](https://asciinema.org/a/xUluz7clArYz11nLO65ObNYL1.svg)](https://asciinema.org/a/xUluz7clArYz11nLO65ObNYL1)  
+Progression game launch:  
+[![asciicast](https://asciinema.org/a/0ijSWgRLCP5feod2uDXf2TZsu.svg)](https://asciinema.org/a/0ijSWgRLCP5feod2uDXf2TZsu)  
+Prime game launch:  
+[![asciicast](https://asciinema.org/a/WkPQMkQMjPy0Nfo1rkAz8hdBS.svg)](https://asciinema.org/a/WkPQMkQMjPy0Nfo1rkAz8hdBS)    
