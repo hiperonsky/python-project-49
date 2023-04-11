@@ -21,10 +21,11 @@ def main():
         else:
             true_answer = first_number * second_number
             exp_char = '*'
-        print('Question: ' + str(first_number) + ' ' + exp_char + ' ' + str(second_number))
+        print(f"Question: {str(first_number)} {exp_char} {str(second_number)}")
         user_answer = prompt.string('Your answer: ')
         if str(user_answer) != str(true_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{str(true_answer)}'.")
+            print(f"'{user_answer}' is wrong answer ;(. \
+Correct answer was '{str(true_answer)}'.")
             print("Let's try again, " + name + "!")
             break
         else:

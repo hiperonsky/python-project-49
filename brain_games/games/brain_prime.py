@@ -20,7 +20,8 @@ def main():
         print('Question: ' + str(number))
         user_answer = prompt.string('Your answer: ')
         if str(user_answer) != str(true_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{str(true_answer)}'.")
+            print(f"'{user_answer}' is wrong answer ;(. \
+                Correct answer was '{str(true_answer)}'.")
             print("Let's try again, " + name + "!")
             break
         else:
