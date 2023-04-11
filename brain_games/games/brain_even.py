@@ -2,12 +2,14 @@
 
 import random
 import prompt
+from brain_games.cli import welcome_user, name
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+    # print('Welcome to the Brain Games!')
+    # name = prompt.string('May I have your name? ')
+    # print('Hello, ' + name + '!')
+    welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     general_counter = 0
 

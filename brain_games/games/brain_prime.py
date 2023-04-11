@@ -1,13 +1,14 @@
 import random
 import prompt
 from math import gcd
-
+from brain_games.cli import welcome_user, name
 #from brain_welcome.py import welcome_user
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+    # print('Welcome to the Brain Games!')
+    # name = prompt.string('May I have your name? ')
+    # print('Hello, ' + name + '!')
+    welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     general_counter = 0
@@ -15,7 +16,7 @@ def main():
     while general_counter < 3:
 
         number = random.randint(1, 100)
-        print(number)
+        # print(number)
         true_answer = 'yes'
         if number == 1:
             true_answer = 'yes'
