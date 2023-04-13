@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 import prompt
-from brain_games.games.brain_even import game
-from brain_games.games.brain_gcd import game
-from brain_games.games.brain_calc import game
-from brain_games.games.brain_prime import game
-from brain_games.games.brain_progression import game
+#from brain_games.games.brain_even import game
+#from brain_games.games.brain_gcd import game
+#from brain_games.games.brain_calc import game
+#from brain_games.games.brain_prime import game
+#from brain_games.games.brain_progression import game
 
 
 def engine():

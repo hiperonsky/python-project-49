@@ -14,10 +14,10 @@ def game():
     return [main_question, question, true_answer]
 
 
-def main():
-    from brain_games.engine import engine
-    engine()
+#def main():
+#    from brain_games.engine import engine
+#    engine()
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
