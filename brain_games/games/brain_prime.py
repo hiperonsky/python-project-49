@@ -1,6 +1,6 @@
+#!/usr/bin/env python3
+
 import random
-import prompt
-from brain_games.cli import welcome_user, check, name
 
 
 def prime_number(number):
@@ -12,19 +12,18 @@ def prime_number(number):
     return 'yes'
 
 
-def main():
-    welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    for i in range(0, 3):
-        number = random.randint(1, 100)
-        true_answer = prime_number(number)
-        print('Question: ' + str(number))
-        user_answer = prompt.string('Your answer: ')
-        if check(user_answer, true_answer) is False:
-            break
+def game():
+    main_question = 'Answer "yes" if given number is prime. \
+Otherwise answer "no".'
+    number = random.randint(1, 100)
+    true_answer = prime_number(number)
+    question = 'Question: ' + str(number)
+    return [main_question, question, true_answer]
 
-        if i == 2:
-            print('Congratulations, ' + name + '!')
+
+def main():
+    from brain_games.engine import engine
+    engine()
 
 
 if __name__ == '__main__':
