@@ -1,15 +1,4 @@
 .venv/
 dist/
-__pycashe__/
+__pycache__/
 DS_Store/
-__pycashe__/*.pyc
-brain_games/__pycache__/__init__.cpython-311.pyc
-brain_games/__pycache__/engine.cpython-311.pyc
-brain_games/games/__pycache__/__init__.cpython-311.pyc
-brain_games/games/__pycache__/even.cpython-311.pyc
-brain_games/scripts/__pycache__/__init__.cpython-311.pyc
-brain_games/scripts/__pycache__/brain_even.cpython-311.pyc
-brain_games/games/__pycache__/prime.cpython-311.pyc
-brain_games/scripts/__pycache__/brain_prime.cpython-311.pyc
-brain_games/games/__pycache__/calc.cpython-311.pyc
-brain_games/scripts/__pycache__/brain_calc.cpython-311.pyc
