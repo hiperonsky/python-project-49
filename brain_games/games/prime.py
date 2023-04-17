@@ -14,7 +14,7 @@ def is_prime(number):
     return True
 
 
-def game():
+def question_answer_generation():
     number = random.randint(1, 100)
     if is_prime(number):
         true_answer = 'yes'

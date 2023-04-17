@@ -5,7 +5,7 @@ from brain_games import engine
 
 
 def main():
-    engine.engine(gcd.game, gcd.MAIN_QUESTION)
+    engine.engine(gcd.question_answer_generation, gcd.MAIN_QUESTION)
 
 
 if __name__ == '__main__':

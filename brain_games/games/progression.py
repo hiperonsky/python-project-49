@@ -20,7 +20,7 @@ def progression_question(first_number, second_number, prog_random_position):
     return " ".join(map(str, progression))
 
 
-def game():
+def question_answer_generation():
     first_number = random.randint(0, 100)
     second_number = random.randint(0, 12)
     prog_random_position = random.randint(0, 9)

@@ -4,7 +4,7 @@ import random
 MAIN_QUESTION = 'What is the result of the expression?'
 
 
-def game():
+def question_answer_generation():
     first_number = random.randint(0, 100)
     second_number = random.randint(0, 100)
     oper_number = random.randint(1, 3)
