@@ -18,11 +18,3 @@ Correct answer was '{str(true_answer)}'.")
         else:
             print('Correct!')
     print('Congratulations, ' + name + '!')
-
-
-def main():
-    engine()
-
-
-if __name__ == '__main__':
-    main()
