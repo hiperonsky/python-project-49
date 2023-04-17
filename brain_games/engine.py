@@ -1,7 +1,7 @@
 import prompt
 
 
-def engine(question_answer_generation, MAIN_QUESTION):
+def run_game(question_answer_generation, MAIN_QUESTION):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
