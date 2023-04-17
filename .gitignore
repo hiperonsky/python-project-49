@@ -2,3 +2,9 @@
 dist/
 __pycashe__/
 DS_Store/
+brain_games/__pycache__/__init__.cpython-311.pyc
+brain_games/__pycache__/engine.cpython-311.pyc
+brain_games/games/__pycache__/__init__.cpython-311.pyc
+brain_games/games/__pycache__/even.cpython-311.pyc
+brain_games/scripts/__pycache__/__init__.cpython-311.pyc
+brain_games/scripts/__pycache__/brain_even.cpython-311.pyc
