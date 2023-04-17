@@ -1,7 +1,7 @@
 import random
 
 
-main_question = 'What is the result of the expression?'
+MAIN_QUESTION = 'What is the result of the expression?'
 
 
 def game():

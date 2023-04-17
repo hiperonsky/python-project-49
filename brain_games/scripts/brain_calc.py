@@ -5,7 +5,7 @@ from brain_games import engine
 
 
 def main():
-    engine.engine(calc.game, calc.main_question)
+    engine.engine(calc.game, calc.MAIN_QUESTION)
 
 
 if __name__ == '__main__':

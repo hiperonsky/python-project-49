@@ -1,7 +1,7 @@
 import random
 
 
-main_question = 'Answer "yes" if given number is prime. \
+MAIN_QUESTION = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
 
 

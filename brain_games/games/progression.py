@@ -1,7 +1,7 @@
 import random
 
 
-main_question = 'What number is missing in the progression?'
+MAIN_QUESTION = 'What number is missing in the progression?'
 
 
 def progression_find(first_number, second_number):
